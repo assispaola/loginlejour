@@ -96,9 +96,43 @@ button:hover {
 
 /* MOBILE */
 
-@media (min-width: 280px) and (max-width:375px) {
+@media (max-width: 280px) {
   div.caixa {
     width: 240px;
+  }
+
+  div.form input {
+    height: 40px;
+    width: 220px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    color: #777;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+}
+
+@media (max-width: 322px) {
+  div.caixa {
+    width: 290px;
+  }
+
+  div.form input {
+    height: 40px;
+    width: 220px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    color: #777;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+}
+
+@media (max-width: 415px) {
+  div.caixa {
+    width: 290px;
   }
 
   div.form input {
